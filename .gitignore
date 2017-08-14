@@ -30,6 +30,8 @@ Temporary Items
 
 ### Node ###
 
+package-lock.json
+
 logs
 *.log
 npm-debug.log*

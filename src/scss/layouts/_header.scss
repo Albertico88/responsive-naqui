@@ -1,13 +1,11 @@
-.main-header {
-  position: absolute;
-  left: 0;
-  right: 0;
-  padding-top: 1em;
+header {
+  background: $pink;
 }
 
 .logo {
   width: 25%;
 
+// retain size of logo
   min-width: 15rem;
   max-width: 15rem;
 }

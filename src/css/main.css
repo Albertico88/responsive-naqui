@@ -1,17 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,500,800");
-.grid {
-  display: flex;
-  flex-wrap: wrap; }
+*, *::before, *::after {
+  box-sizing: border-box; }
 
-.col {
-  flex: 0 0 100%;
-  padding: 0 .55em; }
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto; }
 
-.main-header {
-  position: absolute;
-  left: 0;
-  right: 0;
-  padding-top: 1em; }
+.unstyled-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .unstyled-list a {
+    text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 0 .75em; }
+
+h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, p:last-child {
+  margin: 0; }
+
+header {
+  background: #efadb2; }
 
 .logo {
   width: 25%;
@@ -37,27 +47,12 @@
     display: flex;
     justify-content: flex-end; }
 
-*, *::before, *::after {
-  box-sizing: border-box; }
-
-body {
-  text-align: center; }
-
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto; }
-
-.unstyled-list {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-h1, h2, h3, h4, h5, h6, p {
-  margin: 0 0 .75em; }
-
-h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, p:last-child {
-  margin: 0; }
+.home-hero {
+  background: url("../assets/hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document

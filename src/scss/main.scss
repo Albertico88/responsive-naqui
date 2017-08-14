@@ -3,11 +3,13 @@
 @import "abstracts/colors";
 @import "abstracts/type";
 
-@import "layouts/grid";
-@import "layouts/header";
-
 @import "base/base";
 @import "base/typography";
+
+@import "layouts/grid";
+@import "layouts/header";
+@import "layouts/hero";
+
 
 
 @import "vendors/normalize";

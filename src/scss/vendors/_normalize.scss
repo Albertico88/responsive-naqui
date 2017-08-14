@@ -13,6 +13,9 @@ html {
   line-height: 1.5; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+
+  font-family: $font-main;
+  font-weight: 500;
 }
 
 /* Sections

@@ -1,4 +1,4 @@
-.header {
+.main-header {
   position: absolute;
   left: 0;
   right: 0;
@@ -10,4 +10,32 @@
 
   min-width: 15rem;
   max-width: 15rem;
+}
+
+
+.main-nav {
+  font-size: 1.2rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: red;
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+  }
+
+  li {
+    border: none;
+  }
+
+  a {
+    text-decoration: none;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
 }

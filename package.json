@@ -1,0 +1,19 @@
+{
+  "name": "boxrico",
+  "version": "1.0.0",
+  "description": "responsive landing page for boxrico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albertico88/responsive-naqui.git"
+  },
+  "author": "Alberto Grau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Albertico88/responsive-naqui/issues"
+  },
+  "homepage": "https://github.com/Albertico88/responsive-naqui#readme"
+}

@@ -50,11 +50,9 @@ header {
     justify-content: flex-end; }
 
 .home-hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.09)), url("../assets/hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  height: 100vh; }
+  background-size: cover; }
   .home-hero .btn--transparent {
     text-decoration: none;
     color: #0cd8a1;

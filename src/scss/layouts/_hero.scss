@@ -1,7 +1,16 @@
 .home-hero {
-  background: url("../assets/hero.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, .09)), url("../assets/hero.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 100vh;
+
+  .btn--transparent {
+    text-decoration: none;
+    color: $text-main;
+    background: none;
+    border: 1.5px solid $text-main;
+    padding: 1em;
+  }
+
 }

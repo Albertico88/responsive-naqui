@@ -1,7 +1,23 @@
 $brand-green: #0cd8a1;
-$brand-alt-green: #1fd48f;
+$brand-dark-green: #09a87d;
+$brand-light-green: #54f6ca;
+
+// $accent: #d80ca9;
+$accent: #efadb2;
 
 
-$white: #f0f1f3;
+$white: #FBFBFF;
+$white-green: #f8fffd;
+$gray: #f0f1f3;
 $black: #222226;
-$pink: #efadb2;
+$red: #d83b0c;
+$blue: #0ca9d8;
+$pink: #b76e79;
+
+
+
+// Text Colors
+$text-main: $brand-green;
+$text-inverse: $white;
+$text-accent: $accent;
+$text-black: $black;

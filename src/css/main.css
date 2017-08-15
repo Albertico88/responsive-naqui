@@ -23,6 +23,10 @@ h1, h2, h3, h4, h5, h6, p {
 h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, p:last-child {
   margin: 0; }
 
+.grid {
+  display: flex;
+  flex-wrap: wrap; }
+
 header {
   background: #FBFBFF; }
 
@@ -59,6 +63,27 @@ header {
     background: none;
     border: 1.5px solid #0cd8a1;
     padding: 1em; }
+
+.promo {
+  padding: 4em 0; }
+  .promo .img1 {
+    width: 50%; }
+    .promo .img1 img {
+      max-width: 100%; }
+  .promo .img2 {
+    width: 50%; }
+    .promo .img2 img {
+      max-width: 100%; }
+
+footer {
+  height: 600px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/boxes.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  footer p {
+    color: #FBFBFF;
+    font-weight: 500; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document

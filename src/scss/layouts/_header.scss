@@ -1,5 +1,12 @@
 header {
-  background: $white;
+  background: $brand-green;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-top: 1em;
+  overflow: hidden;
+  display: flex;
 }
 
 .logo {
@@ -8,31 +15,4 @@ header {
 // retain size of logo
   min-width: 15rem;
   max-width: 15rem;
-}
-
-
-.main-nav {
-  font-size: 1.2rem;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-
-  ul {
-    display: flex;
-    justify-content: space-around;
-    height: auto;
-  }
-
-  li {
-    border: none;
-  }
-
-  a {
-    text-decoration: none;
-    flex-basis: 100%;
-    display: flex;
-    justify-content: flex-end;
-  }
-
 }

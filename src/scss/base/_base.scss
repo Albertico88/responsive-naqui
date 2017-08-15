@@ -7,6 +7,7 @@ html {
 }
 
 body {
+  // color: $text-main;
   // text-align: center;
 }
 
@@ -20,9 +21,5 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-
-  a {
-    text-decoration: none;
-  }
-
+  text-transform: uppercase;
 }

@@ -1,0 +1,31 @@
+.btn {
+  text-decoration: none;
+  padding: 1rem 3rem;
+  font-weight: $font-normal;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.btn--transparent {
+  color: $text-main;
+  background: none;
+  border: 1.5px solid $text-main;
+  // border-radius: 30px;
+
+  &:hover {
+    border: none;
+    background: $brand-green;
+    color: $text-inverse;
+  }
+
+}
+
+.btn--solid {
+  color: $text-inverse;
+  background: $brand-green;
+
+  &:hover {
+    background: $brand-dark-green;
+  }
+
+}

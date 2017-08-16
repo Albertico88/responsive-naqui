@@ -5,16 +5,18 @@
 html {
   background: #FBFBFF; }
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto; }
+body {
+  margin: 0;
+  text-align: center; }
 
-.unstyled-list {
+nav, ul {
   margin: 0;
   padding: 0;
-  list-style: none;
-  text-transform: uppercase; }
+  list-style: none; }
+
+img {
+  max-width: 100%;
+  height: auto; }
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0 0 .75em; }
@@ -37,56 +39,85 @@ h2 {
 
 .title-large {
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: 200;
   line-height: .9; }
   .title-large span {
-    font-weight: 200; }
+    font-weight: 500; }
 
 .btn {
+  display: inline-block;
   text-decoration: none;
-  padding: 1rem 3rem;
+  padding: 1rem 2.7rem;
   font-weight: 500;
   text-transform: uppercase;
-  font-size: 1rem; }
+  font-size: 1.5rem;
+  margin: .65em; }
 
 .btn--transparent {
   color: #0cd8a1;
   background: none;
-  border: 1.5px solid #0cd8a1; }
+  border: 2px solid #0cd8a1; }
   .btn--transparent:hover {
-    border: none;
+    border: 2px solid #FBFBFF;
+    background: #0cd8a1;
+    color: #FBFBFF; }
+  .btn--transparent:focus {
+    border: 2px solid #FBFBFF;
     background: #0cd8a1;
     color: #FBFBFF; }
 
 .btn--solid {
-  color: #FBFBFF;
+  color: #f8fffd;
   background: #0cd8a1; }
   .btn--solid:hover {
     background: #09a87d; }
+  .btn--solid:focus {
+    background: #09a87d; }
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto; }
 
 .grid {
   display: flex;
   flex-wrap: wrap; }
 
 header {
-  background: #0cd8a1;
   position: absolute;
   left: 0;
   right: 0;
-  top: 0;
-  padding-top: 1em;
-  overflow: hidden;
-  display: flex; }
-
-.logo {
-  width: 25%;
-  min-width: 15rem;
-  max-width: 15rem; }
+  padding: 1em;
+  overflow: hidden; }
+  header .logo {
+    width: 25%;
+    float: left;
+    min-width: 15rem;
+    max-width: 15rem; }
+  header nav, header li {
+    display: inline-block;
+    margin: 1em;
+    float: right; }
+  header nav, header a {
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: #FBFBFF;
+    padding: .5em;
+    letter-spacing: 1px; }
+    header nav:hover, header a:hover {
+      color: #ddd; }
 
 .home-hero {
+  height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.2)), url("/assets/boxes.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  padding: 15em 0 15em 0;
+  margin-bottom: 2.2em;
+  color: #FBFBFF; }
 
 .promo {
   padding: 4em 0; }
@@ -100,14 +131,26 @@ header {
       max-width: 100%; }
 
 footer {
-  height: 600px;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/boxes.jpg");
+  height: 400px;
+  background: linear-gradient(to bottom, rgba(34, 34, 38, 0.97), #222226), url("/assets/adoquines.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
-  footer p {
+  footer p, footer span {
     color: #FBFBFF;
     font-weight: 500; }
+  footer nav, footer li {
+    display: inline-block;
+    margin: 1em; }
+  footer nav, footer a {
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: #FBFBFF;
+    padding: .5em; }
+    footer nav:hover, footer a:hover {
+      color: #ddd; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document

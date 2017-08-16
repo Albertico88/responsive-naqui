@@ -1,7 +1,10 @@
 .home-hero {
-
+  height: 100vh;
+  background: linear-gradient( to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.2) ), url("/assets/boxes.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
+  padding: 15em 0 15em 0;
+  margin-bottom: 2.2em;
+  color: $text-inverse;
 }

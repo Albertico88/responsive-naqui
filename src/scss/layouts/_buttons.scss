@@ -1,19 +1,27 @@
 .btn {
+  display: inline-block;
   text-decoration: none;
-  padding: 1rem 3rem;
+  padding: 1rem 2.7rem;
   font-weight: $font-normal;
   text-transform: uppercase;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  margin: .65em;
 }
 
 .btn--transparent {
   color: $text-main;
   background: none;
-  border: 1.5px solid $text-main;
+  border: 2px solid $text-main;
   // border-radius: 30px;
 
   &:hover {
-    border: none;
+    border: 2px solid $text-inverse;
+    background: $brand-green;
+    color: $text-inverse;
+  }
+
+  &:focus {
+    border: 2px solid $text-inverse;
     background: $brand-green;
     color: $text-inverse;
   }
@@ -21,10 +29,14 @@
 }
 
 .btn--solid {
-  color: $text-inverse;
+  color: $white-green;
   background: $brand-green;
 
   &:hover {
+    background: $brand-dark-green;
+  }
+
+  &:focus {
     background: $brand-dark-green;
   }
 

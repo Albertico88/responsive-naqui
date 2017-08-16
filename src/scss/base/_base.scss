@@ -7,19 +7,19 @@ html {
 }
 
 body {
-  // color: $text-main;
-  // text-align: center;
+  margin: 0;
+  // color: $text-inverse;
+  text-align: center;
 }
 
-.container {
-  width: 90%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.unstyled-list {
+nav, ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  text-transform: uppercase;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
 }

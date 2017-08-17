@@ -2,13 +2,8 @@
   box-sizing: border-box;
 }
 
-html {
-  background: $white;
-}
-
 body {
   margin: 0;
-  // color: $text-inverse;
   text-align: center;
 }
 
@@ -17,7 +12,6 @@ nav, ul {
   padding: 0;
   list-style: none;
 }
-
 
 img {
   max-width: 100%;

@@ -1,0 +1,62 @@
+
+.home-about-textbox {
+  background-color: #222226;
+  padding: 4em;
+  width: 100vw;
+
+  outline: 2px solid $brand-dark-green;
+  outline-offset: -2.5em;
+  color: $text-inverse;
+  position: relative;
+}
+
+.home-about-textbox h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: $brand-green;
+  top: 0em;
+  background: #222226;
+  padding: 0 0.59em;
+}
+
+@media (max-width: 679px) {
+  .home-about-textbox {
+    padding: 1.5em 0 3em;
+    outline: none;
+  }
+
+  .home-about-textbox h1 {
+    position: relative;
+    padding: 0;
+    background: none;
+  }
+
+  .home-about-textbox p {
+    padding: 0 1.2em 0;
+  }
+
+}
+
+
+
+@media (min-width: 680px) {
+
+  .home-about-textbox {
+    width: 40%;
+  }
+
+  .container-food {
+    padding-bottom: 10em;
+    background-image: url("../assets/hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+  }
+
+  .home-about-description {
+    padding: 3em;
+  }
+
+}

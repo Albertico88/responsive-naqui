@@ -116,7 +116,7 @@ header {
       color: #ddd; }
 
 .home-hero {
-  height: 100vh;
+  height: 115vh;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.2)), url("/assets/boxes.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -128,7 +128,7 @@ header {
   background-color: #222226;
   padding: 4em;
   width: 100vw;
-  outline: 2px solid #09a87d;
+  outline: 2.8px solid #09a87d;
   outline-offset: -2.5em;
   color: #FBFBFF;
   position: relative; }
@@ -140,9 +140,9 @@ header {
   color: #0cd8a1;
   top: 0em;
   background: #222226;
-  padding: 0 0.59em; }
+  padding: 0 .49em; }
 
-@media (max-width: 679px) {
+@media (max-width: 899px) {
   .home-about-textbox {
     padding: 1.5em 0 3em;
     outline: none; }
@@ -153,16 +153,32 @@ header {
   .home-about-textbox p {
     padding: 0 1.2em 0; } }
 
-@media (min-width: 680px) {
+@media (min-width: 900px) {
   .home-about-textbox {
-    width: 40%; }
+    top: -11em;
+    height: auto;
+    width: 42vw;
+    left: 0;
+    text-align: left;
+    padding: 5em;
+    box-shadow: 0 0 4em 0 rgba(0, 0, 0, 0.55); }
+  .home-about-textbox h1 {
+    top: 0;
+    left: 3.5rem;
+    transform: translateX(0); }
+  .home-about-textbox p {
+    font-weight: 200;
+    margin-bottom: 0;
+    line-height: 1.6;
+    padding-top: 1.5em; }
   .container-food {
     padding-bottom: 10em;
     background-image: url("../assets/hero.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100vw; }
+    width: 100vw;
+    padding: 5em; }
   .home-about-description {
     padding: 3em; } }
 

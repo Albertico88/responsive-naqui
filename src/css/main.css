@@ -83,6 +83,15 @@ h2 {
   display: flex;
   flex-wrap: wrap; }
 
+.col {
+  flex: 0 0 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 3em 0; }
+  @media (max-width: 600px) {
+    .col {
+      flex-wrap: wrap; } }
+
 header {
   position: absolute;
   left: 0;
@@ -95,7 +104,6 @@ header {
     min-width: 15rem;
     max-width: 15rem; }
   header nav, header li {
-    display: inline-block;
     margin: 1em;
     float: right; }
   header nav, header a {
@@ -119,6 +127,12 @@ header {
   margin-bottom: 2.2em;
   color: #FBFBFF; }
 
+.features-point {
+  display: block;
+  padding: 2em; }
+  .features-point h2 {
+    padding: 1em 0; }
+
 .promo {
   padding: 4em 0; }
   .promo .img1 {
@@ -132,10 +146,8 @@ header {
 
 footer {
   height: 400px;
-  background: linear-gradient(to bottom, rgba(34, 34, 38, 0.97), #222226), url("/assets/adoquines.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+  background: #222226;
+  padding: 2em; }
   footer p, footer span {
     color: #FBFBFF;
     font-weight: 500; }

@@ -15,8 +15,9 @@
   flex-direction: row;
   padding: 3em 0;
 
-  @media(max-width:600px) {
+  @media(max-width:900px) {
     flex-wrap: wrap;
+    padding: 1em;
   }
 
 }

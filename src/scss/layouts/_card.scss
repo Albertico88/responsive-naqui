@@ -43,10 +43,10 @@
 @media (min-width: 900px) {
 
   .home-about-textbox {
-    top: -11em;
+    top: -15em;
     height: auto;
     width: 42vw;
-    left: 0;
+    left: 0em;
     text-align: left;
     padding: 5em;
     box-shadow: 0 0 4em 0 rgba(0,0,0, .55);
@@ -66,13 +66,12 @@
   }
 
   .container-food {
-    padding-bottom: 10em;
     background-image: url("../assets/hero.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100vw;
-    padding: 5em;
+    padding: 10em;
   }
 
   .home-about-description {

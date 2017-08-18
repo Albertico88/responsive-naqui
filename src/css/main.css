@@ -155,10 +155,10 @@ header {
 
 @media (min-width: 900px) {
   .home-about-textbox {
-    top: -11em;
+    top: -15em;
     height: auto;
     width: 42vw;
-    left: 0;
+    left: 0em;
     text-align: left;
     padding: 5em;
     box-shadow: 0 0 4em 0 rgba(0, 0, 0, 0.55); }
@@ -172,15 +172,40 @@ header {
     line-height: 1.6;
     padding-top: 1.5em; }
   .container-food {
-    padding-bottom: 10em;
     background-image: url("../assets/hero.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100vw;
-    padding: 5em; }
+    padding: 10em; }
   .home-about-description {
     padding: 3em; } }
+
+.features-points {
+  padding-top: 3em; }
+
+.features-title {
+  font-size: 1.2em;
+  position: relative;
+  text-align: center; }
+  .features-title h1 {
+    overflow: hidden;
+    text-align: center; }
+  .features-title h1:before,
+  .features-title h1:after {
+    background-color: #222226;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 25%; }
+  .features-title h1:before {
+    right: 0.5em;
+    margin-left: -50%; }
+  .features-title h1:after {
+    left: 0.5em;
+    margin-right: -50%; }
 
 .features-point {
   display: block;

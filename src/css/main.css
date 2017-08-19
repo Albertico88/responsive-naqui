@@ -117,12 +117,12 @@ header {
       color: #ddd; }
 
 .home-hero {
-  height: 115vh;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.2)), url("/assets/boxes.jpg");
+  height: 111vh;
+  background: linear-gradient(to right, rgba(34, 34, 38, 0.2), rgba(34, 34, 38, 0.38)), url("/assets/garita.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom center;
   background-size: cover;
-  padding: 15em 0 15em 0;
+  padding: 19em 0;
   color: #FBFBFF; }
 
 .home-about-textbox {

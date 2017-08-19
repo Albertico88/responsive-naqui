@@ -1,11 +1,12 @@
 .btn {
   display: inline-block;
   text-decoration: none;
-  padding: 1rem 2.7rem;
+  padding: 1rem 3.2rem;
   font-weight: $font-normal;
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: .65em;
+  transition: all ease-in-out 210ms;
 }
 
 .btn--transparent {

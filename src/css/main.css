@@ -44,11 +44,12 @@ h2 {
 .btn {
   display: inline-block;
   text-decoration: none;
-  padding: 1rem 2.7rem;
+  padding: 1rem 3.2rem;
   font-weight: 500;
   text-transform: uppercase;
-  font-size: 1.5rem;
-  margin: .65em; }
+  font-size: 1.4rem;
+  margin: .65em;
+  transition: all ease-in-out 210ms; }
 
 .btn--transparent {
   color: #0cd8a1;
@@ -132,6 +133,9 @@ header {
   outline-offset: -2.5em;
   color: #FBFBFF;
   position: relative; }
+  .home-about-textbox p {
+    font-size: 1.2em;
+    font-weight: 200; }
 
 .home-about-textbox h1 {
   position: absolute;
@@ -157,7 +161,7 @@ header {
   .home-about-textbox {
     top: -15em;
     height: auto;
-    width: 42vw;
+    width: 600px;
     left: 0em;
     text-align: left;
     padding: 5em;
@@ -168,9 +172,10 @@ header {
     transform: translateX(0); }
   .home-about-textbox p {
     font-weight: 200;
+    font-size: 1.2em;
     margin-bottom: 0;
     line-height: 1.6;
-    padding-top: 1.5em; }
+    padding-top: .8em; }
   .container-food {
     background-image: url("../assets/hero.jpg");
     background-repeat: no-repeat;

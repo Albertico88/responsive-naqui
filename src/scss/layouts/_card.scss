@@ -8,6 +8,12 @@
   outline-offset: -2.5em;
   color: $text-inverse;
   position: relative;
+
+  p {
+    font-size: 1.2em;
+    font-weight: $font-light;
+  }
+
 }
 
 .home-about-textbox h1 {
@@ -45,7 +51,7 @@
   .home-about-textbox {
     top: -15em;
     height: auto;
-    width: 42vw;
+    width: 600px;
     left: 0em;
     text-align: left;
     padding: 5em;
@@ -60,9 +66,10 @@
 
   .home-about-textbox p {
     font-weight: $font-light;
+    font-size: 1.2em;
     margin-bottom: 0;
     line-height: 1.6;
-    padding-top: 1.5em;
+    padding-top: .8em;
   }
 
   .container-food {

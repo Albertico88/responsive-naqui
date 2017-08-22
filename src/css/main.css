@@ -182,7 +182,8 @@ header {
     background-position: center;
     background-size: cover;
     width: 100vw;
-    padding: 10em; }
+    padding: 10em;
+    height: 92vh; }
   .home-about-description {
     padding: 3em; } }
 
@@ -221,7 +222,7 @@ header {
     text-align: left; }
 
 .promo {
-  padding: 4em 0; }
+  padding: 4em 0 0 0; }
   .promo .img1 {
     width: 50%; }
     .promo .img1 img {
@@ -230,6 +231,11 @@ header {
     width: 50%; }
     .promo .img2 img {
       max-width: 100%; }
+
+.cta {
+  width: 100%;
+  background: #222226;
+  color: #0cd8a1; }
 
 footer {
   height: 400px;

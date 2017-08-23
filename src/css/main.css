@@ -243,22 +243,27 @@ header {
   height: 300px; }
 
 .cta {
-  height: 1200px;
+  height: 1100px;
   margin: 0;
   background-image: url("../assets/shopping-bag.jpg");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center top;
   background-size: cover; }
   .cta .title-large {
-    padding-top: 1em;
+    padding: 1.2em 0;
     color: #FBFBFF;
     font-weight: 200; }
   @media (max-width: 900px) {
     .cta {
       height: 100vh; }
       .cta .title-large {
-        font-size: 3.5em;
-        padding: .5em 0 0; } }
+        padding: 1.3em 0 0;
+        font-size: 2.5em; } }
+
+.join-card {
+  background: #222226;
+  padding: 1em;
+  color: #FBFBFF; }
 
 footer {
   height: 400px;

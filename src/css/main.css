@@ -177,7 +177,7 @@ header {
     line-height: 1.6;
     padding-top: .8em; }
   .container-food {
-    background-image: url("../assets/hero.jpg");
+    background-image: url("../assets/tostones.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -222,20 +222,43 @@ header {
     text-align: left; }
 
 .promo {
-  padding: 4em 0 0 0; }
-  .promo .img1 {
-    width: 50%; }
-    .promo .img1 img {
-      max-width: 100%; }
-  .promo .img2 {
-    width: 50%; }
-    .promo .img2 img {
-      max-width: 100%; }
+  padding: 4em 0 0 0;
+  line-height: 0; }
+  .promo img {
+    padding: 0;
+    margin: 0;
+    height: auto; }
+
+.img1 {
+  max-width: 50%; }
+
+.img2 {
+  max-width: 50%; }
+
+.img3 {
+  max-width: 50%; }
+
+.img4 {
+  max-width: 50%;
+  height: 300px; }
 
 .cta {
   width: 100%;
-  background: #222226;
-  color: #0cd8a1; }
+  height: 100vh;
+  color: #0cd8a1;
+  margin: 0;
+  padding: 0; }
+  .cta h1 {
+    padding-top: 1em; }
+
+.cta-image {
+  height: 100%;
+  background-image: url("../assets/shopping-bag.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover; }
+  .cta-image .title-large {
+    color: #FBFBFF; }
 
 footer {
   height: 400px;

@@ -1,5 +1,24 @@
 .cta {
   width: 100%;
-  background: $black;
+  height: 100vh;
   color: $text-main;
+  margin: 0;
+  padding: 0;
+
+  h1 {
+    padding-top: 1em;
+  }
+
+}
+
+.cta-image {
+  height: 100%;
+  background-image: url("../assets/shopping-bag.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+
+  .title-large {
+    color: $text-inverse;
+  }
 }

@@ -11,12 +11,12 @@ gulp.task('sass', function() {
 gulp.task('serve', function() {
   browserSync.init(['./docs/css/*.css'], {
     server: {
-      baseDir: "./"
+      baseDir: "./docs"
     }
   });
 });
 
 gulp.task('default', ['sass', 'serve'], function() {
   gulp.watch('./docs/scss/**/*.scss', ['sass']);
-  gulp.watch('./*.html').on('change', browserSync.reload);
+  gulp.watch('./docs/*.html').on('change', browserSync.reload);
 });

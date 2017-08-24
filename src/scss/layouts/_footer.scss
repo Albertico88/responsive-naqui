@@ -14,10 +14,6 @@ footer {
     font-weight: $font-normal;
   }
 
-  .col-3 {
-
-  }
-
   nav, li {
     display: inline-block;
     margin: 1em;
@@ -37,4 +33,9 @@ footer {
 
   }
 
+}
+
+
+.col-3 {
+  padding-top: 6em;
 }

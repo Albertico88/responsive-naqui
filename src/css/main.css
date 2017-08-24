@@ -268,11 +268,14 @@ header {
   width: 50%;
   color: #FBFBFF;
   background: #232323;
+  box-shadow: 0 0 4em 0 rgba(0, 0, 0, 0.45);
   padding: 5em;
   outline: 2px solid #0cd8a1;
   outline-offset: -2.5em;
-  top: 8em;
-  left: 26%; }
+  top: 6.5em;
+  left: 25%; }
+  .join-card-text-box h1 {
+    color: #0cd8a1; }
   .join-card-text-box p {
     font-size: 1.7em;
     padding: 1em; }
@@ -284,8 +287,10 @@ header {
       width: 100vw;
       padding: 3em;
       outline: none; }
-      .join-card-text-box h1, .join-card-text-box a {
-        font-size: 1.3em; } }
+      .join-card-text-box a {
+        font-size: 1.3em; }
+      .join-card-text-box h1 {
+        font-size: 2.5em; } }
 
 footer {
   height: 400px;
@@ -306,6 +311,9 @@ footer {
     padding: .5em; }
     footer nav:hover, footer a:hover {
       color: #ddd; }
+
+.col-3 {
+  padding-top: 6em; }
 
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
